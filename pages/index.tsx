@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+      <img src="/mpls.svg" className={styles.banner}></img>
         <h1 className={styles.title}>
           Reuben Gardos Reid
         </h1>
