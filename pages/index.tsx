@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Banner from '../components/banner'
 
 export default function Home() {
   return (
@@ -10,11 +11,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <img src="/mpls.svg" className={styles.banner}></img>
+        <Banner></Banner>
         <h1 className={styles.title}>
           Reuben Gardos Reid
         </h1>
         <h2>Software Developer</h2>
+        <div style={{height:'2000px'}}></div>
       </main>
 
       <footer className={styles.footer}>
