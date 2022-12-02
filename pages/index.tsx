@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Reuben Gardos Reid
         </h1>
-        <h2>Software Developer</h2>
+        {/* <h2>Software Developer</h2> */}
       </main>
 
       <footer className={styles.footer}>
