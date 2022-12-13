@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,11 +11,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <img src="/mpls.svg" className={styles.banner}></img>
+        <img src="/mpls.svg" className={styles.banner}></img>
         <h1 className={styles.title}>
           Reuben Gardos Reid
         </h1>
-        {/* <h2>Software Developer</h2> */}
+        <h3>
+          <a className={styles.linkedin} href="https://www.linkedin.com/in/reuben-gardos-reid/">LinkedIn</a>
+        </h3>
       </main>
 
       <footer className={styles.footer}>
